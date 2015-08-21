@@ -29,6 +29,9 @@ public class Runner {
     }
     
     public String toString() {
-        return String.format("%s:\t%d is %s\n", getName(), getRaceID(), performSport());
+        return String.format("%s:\t%d is %s\n"
+                , getName()
+                , getRaceID()
+                , performSport());
     }
 }

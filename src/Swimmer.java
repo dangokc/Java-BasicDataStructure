@@ -4,10 +4,12 @@ public class Swimmer {
     private int raceID;
     private String name;
     
+    //Default constructure
     public Swimmer() {
         //do nothing.
     }
     
+    //Explicit constructure
     public Swimmer(int racerID, String swimmerName) {
         raceID = racerID;
         name = swimmerName;
@@ -34,6 +36,9 @@ public class Swimmer {
     }
     
     public String toString() {
-        return String.format("%s:\t%d is %s\n", getName(), getRaceID(), performSport());
+        return String.format("%s:\t%d is %s\n"
+                , getName()
+                , getRaceID()
+                , performSport());
     }
 }

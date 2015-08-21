@@ -5,9 +5,14 @@ import java.util.Scanner;
 public class BasicDataStructures {
 
     public static void main(String[] args) {
+        
+        //Need to keep track of array size
         final int MAX_RACE_RUNNERS = 5;
+        //Init Array with a define size
         Runner[] raceRunners = new Runner[MAX_RACE_RUNNERS];
-        int raceRunnersCount = 0;
+        //Keep track of the number of elements in Array
+        int raceRunnersCount = 0;        
+        
         ArrayList<Swimmer> raceSwimmers = new ArrayList<Swimmer>();
 
         boolean runRaceManager = true;
